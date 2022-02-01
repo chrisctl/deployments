@@ -29,7 +29,7 @@ It is recommended that you complete the sizing and capacity assessment for the d
 ## Considerations
 Before you start deploying Aqua server, you may perform the following configurations, as required.
 ### Packaged or external managed database
-Aqua Enterprise offers packaged PostgreSQL database container. For large environments and enterprise companies with advanced requirements, Aqua recommends to use an external managed PostgreSQL database by following the deployment steps below.
+Aqua Enterprise offers packaged PostgreSQL database container. This is not recommended for Production use, Aqua recommends using an external managed PostgreSQL database by following the deployment steps below.
 ### HTTPS for the Aqua Server
 To configure an HTTPS (secure) channel, refer to [Configure HTTPS for the Aqua Server](https://docs.aquasec.com/docs/deploy-k8s-configure-https-for-the-aqua-server).
 ### Active-active Server mode
